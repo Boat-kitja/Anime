@@ -8,8 +8,6 @@
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore
-import RealmSwift
-import SwiftUI
 
 protocol PassActionToStarBackToMainViewFavorite:AnyObject {
     func passActionBackToMainFavorite(name:String)

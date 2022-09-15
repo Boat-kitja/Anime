@@ -12,8 +12,8 @@
 		C314759828C5CB460024A043 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314759728C5CB460024A043 /* FirebaseModel.swift */; };
 		C3170A0C28BB8C44001F931D /* DetailOfAnime2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3170A0B28BB8C44001F931D /* DetailOfAnime2.swift */; };
 		C3170A1228BCC022001F931D /* FireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3170A1128BCC022001F931D /* FireBase.swift */; };
-		C325C84528CCC6E800C75345 /* SearchTextForFetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325C84428CCC6E800C75345 /* SearchTextForFetchData.swift */; };
 		C325C84728CCC6F200C75345 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325C84628CCC6F200C75345 /* UserName.swift */; };
+		C3311F0628D35E94008E030E /* SearchTextForFetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3311F0528D35E94008E030E /* SearchTextForFetchData.swift */; };
 		C332B47D28B7A31B0056B40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332B47C28B7A31B0056B40B /* AppDelegate.swift */; };
 		C332B47F28B7A31B0056B40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332B47E28B7A31B0056B40B /* SceneDelegate.swift */; };
 		C332B48128B7A31B0056B40B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332B48028B7A31B0056B40B /* RegisterViewController.swift */; };
@@ -42,8 +42,8 @@
 		C314759728C5CB460024A043 /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
 		C3170A0B28BB8C44001F931D /* DetailOfAnime2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfAnime2.swift; sourceTree = "<group>"; };
 		C3170A1128BCC022001F931D /* FireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase.swift; sourceTree = "<group>"; };
-		C325C84428CCC6E800C75345 /* SearchTextForFetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTextForFetchData.swift; path = "../../../Animeapp_V2_Save all in firebase/ListOfPutang/Data/SearchTextForFetchData.swift"; sourceTree = "<group>"; };
 		C325C84628CCC6F200C75345 /* UserName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		C3311F0528D35E94008E030E /* SearchTextForFetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextForFetchData.swift; sourceTree = "<group>"; };
 		C332B47928B7A31B0056B40B /* ListOfPutang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfPutang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C332B47C28B7A31B0056B40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C332B47E28B7A31B0056B40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		C341C25728C09F7400511CC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C325C84428CCC6E800C75345 /* SearchTextForFetchData.swift */,
+				C3311F0528D35E94008E030E /* SearchTextForFetchData.swift */,
 				C325C84628CCC6F200C75345 /* UserName.swift */,
 				C332B49828B7B8570056B40B /* JsonModel.swift */,
 				C314759728C5CB460024A043 /* FirebaseModel.swift */,
@@ -295,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3311F0628D35E94008E030E /* SearchTextForFetchData.swift in Sources */,
 				C397EC1328B9ECA2006FEFB3 /* DetailOfAnime.swift in Sources */,
 				C332B49128B7A8750056B40B /* LoginViewController.swift in Sources */,
 				C332B49728B7B81B0056B40B /* ApiCall.swift in Sources */,
@@ -304,7 +305,6 @@
 				C332B48128B7A31B0056B40B /* RegisterViewController.swift in Sources */,
 				C3170A1228BCC022001F931D /* FireBase.swift in Sources */,
 				C313FBAA28CC8D480098F0A8 /* MainViewControllerModel.swift in Sources */,
-				C325C84528CCC6E800C75345 /* SearchTextForFetchData.swift in Sources */,
 				C332B47D28B7A31B0056B40B /* AppDelegate.swift in Sources */,
 				C332B49928B7B8570056B40B /* JsonModel.swift in Sources */,
 				C332B4A028B8BA240056B40B /* CustomCell.swift in Sources */,

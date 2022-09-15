@@ -9,9 +9,6 @@
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore
-import FirebaseCore
-import RealmSwift
-import Firebase
 
 class MainViewController: UIViewController{
     let db = Firestore.firestore()
@@ -36,15 +33,14 @@ class MainViewController: UIViewController{
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.searchController = searchController
-        searchController.searchResultsUpdater = self
-        setupObserverForUnfavoriteFromDetail2()
         apiCall.delegate = self
         tableView.delegate = self
         tableView.dataSource = self
+        navigationItem.searchController = searchController
+        searchController.searchResultsUpdater = self
+        setupObserverForUnfavoriteFromDetail2()
         setUserDafaultForSearch()
         tableView.register(UINib(nibName: "CustomCell", bundle: nil), forCellReuseIdentifier: "customCell")
-        hideSpinner()
     }
     
     private func showSpinner() {

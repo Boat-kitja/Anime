@@ -6,12 +6,10 @@ target 'ListOfPutang' do
   use_frameworks!
 
   # Pods for ListOfPutang
-pod 'FirebaseAnalytics'
+
 pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
 pod 'Alamofire'
-pod 'RealmSwift', '~>10'
-pod 'Firebase/Database'
-pod 'Kingfisher', '~> 4.0'
+
 
 end

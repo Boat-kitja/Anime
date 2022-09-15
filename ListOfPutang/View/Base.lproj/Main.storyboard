@@ -135,7 +135,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nodata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmz-Lh-kgu">
-                                        <rect key="frame" x="96" y="180" width="58" height="60"/>
+                                        <rect key="frame" x="96" y="226" width="58" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="Z5e-93-TjA"/>
                                         </constraints>
@@ -144,7 +144,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Anime cartoon data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvx-ea-dix">
-                                        <rect key="frame" x="42.666666666666671" y="250" width="164.66666666666663" height="0.0"/>
+                                        <rect key="frame" x="42.666666666666671" y="236" width="164.66666666666663" height="14"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="14" id="fKZ-nC-Zxn"/>
                                         </constraints>
@@ -216,7 +216,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nodata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cES-wC-pWo">
-                                        <rect key="frame" x="96" y="232" width="58" height="0.0"/>
+                                        <rect key="frame" x="96" y="186" width="58" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="t2j-o1-0pe"/>
                                         </constraints>
@@ -225,7 +225,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Anime cartoon data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ba-JS-Dgj">
-                                        <rect key="frame" x="42.666666666666671" y="236" width="164.66666666666663" height="14"/>
+                                        <rect key="frame" x="42.666666666666671" y="250" width="164.66666666666663" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="14" id="ZLy-pd-9lV"/>
                                         </constraints>
@@ -754,12 +754,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="book" catalog="system" width="32" height="32"/>
         <image name="nodata" width="512" height="512"/>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
-        <image name="star" catalog="system" width="128" height="116"/>
+        <image name="square.and.arrow.up" catalog="system" width="32" height="32"/>
+        <image name="star" catalog="system" width="32" height="32"/>
         <image name="woman" width="500" height="523"/>
-        <image name="xmark" catalog="system" width="128" height="113"/>
+        <image name="xmark" catalog="system" width="32" height="32"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
