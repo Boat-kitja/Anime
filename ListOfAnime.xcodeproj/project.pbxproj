@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AB205B3A592741111659F85 /* Pods_ListOfPutang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27E78524BF25F4B23C1C796 /* Pods_ListOfPutang.framework */; };
+		00DC1FB7E293D8F008993C7B /* Pods_ListOfAnime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553ACBFF59F6963069275C62 /* Pods_ListOfAnime.framework */; };
 		C313FBAA28CC8D480098F0A8 /* MainViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313FBA928CC8D480098F0A8 /* MainViewControllerModel.swift */; };
 		C314759828C5CB460024A043 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314759728C5CB460024A043 /* FirebaseModel.swift */; };
 		C3170A0C28BB8C44001F931D /* DetailOfAnime2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3170A0B28BB8C44001F931D /* DetailOfAnime2.swift */; };
@@ -37,14 +37,16 @@
 /* Begin PBXFileReference section */
 		28FF0ACCD29A4790CC19D86B /* Pods-ListOfPutang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListOfPutang.debug.xcconfig"; path = "Target Support Files/Pods-ListOfPutang/Pods-ListOfPutang.debug.xcconfig"; sourceTree = "<group>"; };
 		3A832E77BF7D17CABB8381E4 /* Pods-ListOfPutang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListOfPutang.release.xcconfig"; path = "Target Support Files/Pods-ListOfPutang/Pods-ListOfPutang.release.xcconfig"; sourceTree = "<group>"; };
-		A27E78524BF25F4B23C1C796 /* Pods_ListOfPutang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListOfPutang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553ACBFF59F6963069275C62 /* Pods_ListOfAnime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListOfAnime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC47675C4CBAF5905A94949C /* Pods-ListOfAnime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListOfAnime.debug.xcconfig"; path = "Target Support Files/Pods-ListOfAnime/Pods-ListOfAnime.debug.xcconfig"; sourceTree = "<group>"; };
+		B2DFB1E745E49F00CD2819EA /* Pods-ListOfAnime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListOfAnime.release.xcconfig"; path = "Target Support Files/Pods-ListOfAnime/Pods-ListOfAnime.release.xcconfig"; sourceTree = "<group>"; };
 		C313FBA928CC8D480098F0A8 /* MainViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerModel.swift; sourceTree = "<group>"; };
 		C314759728C5CB460024A043 /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
 		C3170A0B28BB8C44001F931D /* DetailOfAnime2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfAnime2.swift; sourceTree = "<group>"; };
 		C3170A1128BCC022001F931D /* FireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase.swift; sourceTree = "<group>"; };
 		C325C84628CCC6F200C75345 /* UserName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
 		C3311F0528D35E94008E030E /* SearchTextForFetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextForFetchData.swift; sourceTree = "<group>"; };
-		C332B47928B7A31B0056B40B /* ListOfPutang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfPutang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C332B47928B7A31B0056B40B /* ListOfAnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfAnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C332B47C28B7A31B0056B40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C332B47E28B7A31B0056B40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C332B48028B7A31B0056B40B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB205B3A592741111659F85 /* Pods_ListOfPutang.framework in Frameworks */,
+				00DC1FB7E293D8F008993C7B /* Pods_ListOfAnime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,8 @@
 			children = (
 				28FF0ACCD29A4790CC19D86B /* Pods-ListOfPutang.debug.xcconfig */,
 				3A832E77BF7D17CABB8381E4 /* Pods-ListOfPutang.release.xcconfig */,
+				AC47675C4CBAF5905A94949C /* Pods-ListOfAnime.debug.xcconfig */,
+				B2DFB1E745E49F00CD2819EA /* Pods-ListOfAnime.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -90,7 +94,7 @@
 		C332B47028B7A31B0056B40B = {
 			isa = PBXGroup;
 			children = (
-				C332B47B28B7A31B0056B40B /* ListOfPutang */,
+				C332B47B28B7A31B0056B40B /* ListOfAnime */,
 				C332B47A28B7A31B0056B40B /* Products */,
 				169D92AEDFAC916AABBA40F1 /* Pods */,
 				F973E99587E0409772ED5BE4 /* Frameworks */,
@@ -100,12 +104,12 @@
 		C332B47A28B7A31B0056B40B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C332B47928B7A31B0056B40B /* ListOfPutang.app */,
+				C332B47928B7A31B0056B40B /* ListOfAnime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C332B47B28B7A31B0056B40B /* ListOfPutang */ = {
+		C332B47B28B7A31B0056B40B /* ListOfAnime */ = {
 			isa = PBXGroup;
 			children = (
 				C341C25728C09F7400511CC1 /* Model */,
@@ -119,7 +123,7 @@
 				C397EC1428BA10E6006FEFB3 /* GoogleService-Info.plist */,
 				C332B48A28B7A31D0056B40B /* Info.plist */,
 			);
-			path = ListOfPutang;
+			path = ListOfAnime;
 			sourceTree = "<group>";
 		};
 		C341C25328C09BD000511CC1 /* Controller */ = {
@@ -172,7 +176,7 @@
 		F973E99587E0409772ED5BE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A27E78524BF25F4B23C1C796 /* Pods_ListOfPutang.framework */,
+				553ACBFF59F6963069275C62 /* Pods_ListOfAnime.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,23 +184,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C332B47828B7A31B0056B40B /* ListOfPutang */ = {
+		C332B47828B7A31B0056B40B /* ListOfAnime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C332B48D28B7A31D0056B40B /* Build configuration list for PBXNativeTarget "ListOfPutang" */;
+			buildConfigurationList = C332B48D28B7A31D0056B40B /* Build configuration list for PBXNativeTarget "ListOfAnime" */;
 			buildPhases = (
 				2457C07763194E299786D308 /* [CP] Check Pods Manifest.lock */,
 				C332B47528B7A31B0056B40B /* Sources */,
 				C332B47628B7A31B0056B40B /* Frameworks */,
 				C332B47728B7A31B0056B40B /* Resources */,
-				78A94C9D55C16CCB36A35854 /* [CP] Embed Pods Frameworks */,
+				7596E40636A4ACDC1C850EAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ListOfPutang;
+			name = ListOfAnime;
 			productName = ListOfPutang;
-			productReference = C332B47928B7A31B0056B40B /* ListOfPutang.app */;
+			productReference = C332B47928B7A31B0056B40B /* ListOfAnime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C332B47428B7A31B0056B40B /* Build configuration list for PBXProject "ListOfPutang" */;
+			buildConfigurationList = C332B47428B7A31B0056B40B /* Build configuration list for PBXProject "ListOfAnime" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,7 +231,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C332B47828B7A31B0056B40B /* ListOfPutang */,
+				C332B47828B7A31B0056B40B /* ListOfAnime */,
 			);
 		};
 /* End PBXProject section */
@@ -264,28 +268,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ListOfPutang-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ListOfAnime-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78A94C9D55C16CCB36A35854 /* [CP] Embed Pods Frameworks */ = {
+		7596E40636A4ACDC1C850EAC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ListOfPutang/Pods-ListOfPutang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ListOfAnime/Pods-ListOfAnime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ListOfPutang/Pods-ListOfPutang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ListOfAnime/Pods-ListOfAnime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListOfPutang/Pods-ListOfPutang-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListOfAnime/Pods-ListOfAnime-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,7 +458,7 @@
 		};
 		C332B48E28B7A31D0056B40B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28FF0ACCD29A4790CC19D86B /* Pods-ListOfPutang.debug.xcconfig */;
+			baseConfigurationReference = AC47675C4CBAF5905A94949C /* Pods-ListOfAnime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +466,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V57THBPF6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ListOfPutang/Info.plist;
+				INFOPLIST_FILE = ListOfAnime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -483,7 +487,7 @@
 		};
 		C332B48F28B7A31D0056B40B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A832E77BF7D17CABB8381E4 /* Pods-ListOfPutang.release.xcconfig */;
+			baseConfigurationReference = B2DFB1E745E49F00CD2819EA /* Pods-ListOfAnime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,7 +495,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V57THBPF6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ListOfPutang/Info.plist;
+				INFOPLIST_FILE = ListOfAnime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -513,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C332B47428B7A31B0056B40B /* Build configuration list for PBXProject "ListOfPutang" */ = {
+		C332B47428B7A31B0056B40B /* Build configuration list for PBXProject "ListOfAnime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C332B48B28B7A31D0056B40B /* Debug */,
@@ -522,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C332B48D28B7A31D0056B40B /* Build configuration list for PBXNativeTarget "ListOfPutang" */ = {
+		C332B48D28B7A31D0056B40B /* Build configuration list for PBXNativeTarget "ListOfAnime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C332B48E28B7A31D0056B40B /* Debug */,

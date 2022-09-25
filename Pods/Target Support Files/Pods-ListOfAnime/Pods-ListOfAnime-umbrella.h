@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ListOfPutangVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ListOfPutangVersionString[];
+FOUNDATION_EXPORT double Pods_ListOfAnimeVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ListOfAnimeVersionString[];
 

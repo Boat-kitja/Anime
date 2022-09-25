@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "10781047A46C2B5AFC9BE5B2370BB447"
-               BuildableName = "Pods_ListOfPutang.framework"
-               BlueprintName = "Pods-ListOfPutang"
+               BlueprintIdentifier = "245F816BC7D10FA61EE829A9654BD3F0"
+               BuildableName = "Pods_ListOfAnime.framework"
+               BlueprintName = "Pods-ListOfAnime"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

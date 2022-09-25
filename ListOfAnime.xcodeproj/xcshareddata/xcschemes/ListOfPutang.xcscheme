@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C332B47828B7A31B0056B40B"
-               BuildableName = "ListOfPutang.app"
-               BlueprintName = "ListOfPutang"
-               ReferencedContainer = "container:ListOfPutang.xcodeproj">
+               BuildableName = "ListOfAnime.app"
+               BlueprintName = "ListOfAnime"
+               ReferencedContainer = "container:ListOfAnime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C332B47828B7A31B0056B40B"
-            BuildableName = "ListOfPutang.app"
-            BlueprintName = "ListOfPutang"
-            ReferencedContainer = "container:ListOfPutang.xcodeproj">
+            BuildableName = "ListOfAnime.app"
+            BlueprintName = "ListOfAnime"
+            ReferencedContainer = "container:ListOfAnime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C332B47828B7A31B0056B40B"
-            BuildableName = "ListOfPutang.app"
-            BlueprintName = "ListOfPutang"
-            ReferencedContainer = "container:ListOfPutang.xcodeproj">
+            BuildableName = "ListOfAnime.app"
+            BlueprintName = "ListOfAnime"
+            ReferencedContainer = "container:ListOfAnime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
